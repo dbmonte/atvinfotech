@@ -65,7 +65,7 @@ h1.topoEfoot{
 	transition: all 1s;
 }
 
-#moedas{
+#servico{
 	display: grid;
 	text-align: center;
     background-color: var(--gray1);
@@ -73,7 +73,7 @@ h1.topoEfoot{
 	
 	
 }
-#content-moedas,
+#content-servico,
 #content-clientes{
 	display: flex;
 	flex-direction: row;
@@ -84,7 +84,7 @@ h1.topoEfoot{
 
 }
 
-.img-moedas,
+.img-servico,
 .img-clientes{
 	width: 230px;
 	height: 230px;
@@ -93,7 +93,7 @@ h1.topoEfoot{
 	width: 100%;
 }
 
-.img-moedas:hover,
+.img-servico:hover,
 .img-clientes:hover{
 	width: 210px;
 	height: 210px;
