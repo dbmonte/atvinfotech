@@ -1,0 +1,139 @@
+:root{
+	--azul: rgb(127, 140, 197);
+	--gray1: rgb(151, 151, 151);
+	--branco: #ffffff;
+	--textoGeral: "Roboto", sans-serif;
+	--textoMenu: "Roboto Condensed", sans-serif;
+	--textoBotaoTitulo: "Montserrat", sans-serif;
+
+}
+*,*::after,*::before{box-sizing: border-box;outline: none;}
+
+
+#header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 10px; 
+    background-color: var(--gray1);
+	height: 85px;
+}
+
+#topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+h1.topoEfoot{
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+	font-family: fantasy;
+}
+.logoheader{
+	background-color: var(--gray1);
+}
+.logoheader{
+	height: 25px; width: 25px;
+	
+}
+
+.logoheader:hover{
+	width: 30px; height: 30px;
+}
+
+#getTheTicket{
+	display: grid;
+	text-align: center;
+    background-color: var(--azul);
+	}
+
+.btn-primary{
+	background-color: black;
+	color: var(--branco);
+	border: 1px solid black;
+	border-radius: 4px;
+	height: 50px; width: 160px;
+	margin-bottom: 30px;
+	cursor: pointer;
+	}
+
+.btn-primary:hover{
+	background-color: var(--branco);
+	color: black;
+	transition: all 1s;
+}
+
+#moedas{
+	display: grid;
+	text-align: center;
+    background-color: var(--gray1);
+	Background-size: cover;
+	
+	
+}
+#content-moedas,
+#content-clientes{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	letter-spacing: 1px; margin-bottom: 0.7em;
+	Background-size: cover;
+	
+
+}
+
+.img-moedas,
+.img-clientes{
+	width: 230px;
+	height: 230px;
+	margin-left: 15px;
+	Background-size: cover;
+	width: 100%;
+}
+
+.img-moedas:hover,
+.img-clientes:hover{
+	width: 210px;
+	height: 210px;
+	margin-left: 15px;
+	transition: all 200ms;
+	width: 100%;
+}
+#Clientes{
+	display: grid;
+	text-align: center;
+    background-color: var(--azul);
+	}
+	
+#submit{
+	display: grid;
+	text-align: center;
+    background-color: var(--gray1);
+}
+
+.textarea{
+	width: 30%;
+	height: 100px;
+}
+
+
+#footer {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 10px; 
+    background-color: var(--azul);
+	height: 85px;
+	
+}
+
+.logofooter{
+	height: 25px; width: 25px;
+	background-color: var(--azul);
+}
+.logofooter:hover{
+	width: 30px; height: 30px;
+}
+
